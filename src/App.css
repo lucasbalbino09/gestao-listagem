@@ -1,0 +1,109 @@
+.App {
+  display: flex; 
+  font-family: "Mulish", sans-serif;
+  text-align: center; 
+  color: white;
+  align-items: center;    /* Define o layout como flexível */
+  flex-direction: column; /* Organiza os itens em coluna */
+  min-height: 100vh;  /* Garante que o contêiner ocupe a altura total da viewport */
+  margin: 0;          /* Remove margens padrão do navegador */
+  background-color: #000000; /* Define uma cor de fundo opcional */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.digitacao {
+  width: 150%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+h1{
+  border:solid rgb(245, 242, 242) 2px;
+  color: white;
+  border-radius:20px;
+  padding:30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* src/App.css */
+div {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+  padding: 15px;
+  border:solid black 1px;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  margin-right: 10px;
+
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.Botaoadicionar{
+  padding:15px;
+  border:solid black 1px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+ position:relative;
+ left:-10px;
+ 
+}
+.Botaoremover{
+  margin-left:17px;
+  border-radius: 15px;
+  border:solid red;
+  background:red;
+  color:white;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+li {
+  margin-bottom: 10px;
+}
+/* src/App.css ou src/componentes/Graficotarefa.css */
+.grafico-container {
+  width: 350px;  /* Define uma largura pequena para o gráfico */
+  height: 350px; /* Define uma altura pequena para o gráfico */
+  margin: 20px;  /* Adiciona espaçamento ao redor do gráfico, se necessário */
+  position: relative; /* Necessário para layout */
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
